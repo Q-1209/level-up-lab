@@ -153,3 +153,35 @@ button:disabled { cursor: default; }
 .foot { font-size: 0.8rem; margin-top: 32px; max-width: 720px; }
 
 .katex { font-size: 1.05em; }
+
+/* Home layout */
+.home-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; align-items: start; margin-top: 20px; }
+.home-grid .panel { margin-top: 0; max-width: none; }
+.small { font-size: 0.85rem; }
+.secondary.big { width: 100%; padding: 12px; margin-top: 4px; }
+.mini-title { font-size: 0.9rem; margin: 20px 0 6px; }
+.history { list-style: none; margin: 0; padding: 0; }
+.history li { display: grid; grid-template-columns: 1fr auto 3em; gap: 10px; padding: 6px 0; border-top: 1px solid var(--line); font-size: 0.9rem; }
+.history strong { text-align: right; }
+
+/* Mock test */
+.confirm { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--bad); border-radius: var(--radius); padding: 12px 16px; margin-bottom: 16px; }
+.confirm span { flex: 1; min-width: 200px; }
+.primary.danger { background: var(--bad); border-color: var(--bad); }
+.score-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; margin: 16px 0 24px; }
+.score-card .score-big { margin: 4px 0; font-size: 3.5rem; line-height: 1.1; color: var(--brand); }
+.score-label { font-weight: 600; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.section-title { font-size: 1.1rem; margin: 24px 0 8px; }
+.area-results { display: flex; flex-direction: column; gap: 8px; }
+.area-row { display: grid; grid-template-columns: minmax(140px, 1.2fr) 2fr 3em; gap: 12px; align-items: center; font-size: 0.9rem; }
+.bar { height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--brand); }
+.area-num { text-align: right; font-variant-numeric: tabular-nums; }
+.review-list li.expandable { display: block; padding: 0; }
+.review-head { display: flex; gap: 10px; width: 100%; text-align: left; background: none; border: 0; padding: 10px 12px; align-items: flex-start; }
+.review-head .review-text { flex: 1; }
+.level-chip { font-size: 0.75rem; color: var(--muted); white-space: nowrap; padding-top: 3px; }
+.review-body { padding: 0 12px 12px 36px; font-size: 0.95rem; }
+.review-body p { margin: 6px 0; }
+.review-list .ok .review-head .mark { color: var(--good); }
+.review-list .miss .review-head .mark { color: var(--bad); }
