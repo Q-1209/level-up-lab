@@ -1,0 +1,250 @@
+[
+  {
+    "id": "M-ALG-001", "subject": "math", "area": "algebra", "rit": 215,
+    "stem": "What is the value of $x$ if $3x - 7 = 2x + 5$?",
+    "choices": ["$12$", "$-2$", "$2$", "$-12$"], "answer": 0, "calc": "12",
+    "explanation": "Subtract $2x$ from both sides to get $x - 7 = 5$. Then add $7$ to both sides: $x = 12$."
+  },
+  {
+    "id": "M-ALG-002", "subject": "math", "area": "algebra", "rit": 220,
+    "stem": "If $f(x) = 2x^2 - 3$, what is $f(-2)$?",
+    "choices": ["$5$", "$-11$", "$13$", "$1$"], "answer": 0, "calc": "2*(-2)**2-3",
+    "explanation": "$f(-2) = 2(-2)^2 - 3 = 2(4) - 3 = 8 - 3 = 5$. Remember that $(-2)^2 = 4$, not $-4$."
+  },
+  {
+    "id": "M-ALG-003", "subject": "math", "area": "algebra", "rit": 226,
+    "stem": "Which inequality describes all solutions of $4 - 2x > 10$?",
+    "choices": ["$x < -3$", "$x > -3$", "$x < 3$", "$x > -7$"], "answer": 0,
+    "explanation": "Subtract $4$: $-2x > 6$. Divide both sides by $-2$ and flip the inequality sign because you divided by a negative number: $x < -3$."
+  },
+  {
+    "id": "M-ALG-004", "subject": "math", "area": "algebra", "rit": 230,
+    "stem": "What is the slope of the line that passes through the points $(-1, 4)$ and $(3, -4)$?",
+    "choices": ["$-2$", "$2$", "$-\\frac{1}{2}$", "$\\frac{1}{2}$"], "answer": 0, "calc": "(-4-4)/(3-(-1))",
+    "explanation": "Slope $= \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-4 - 4}{3 - (-1)} = \\frac{-8}{4} = -2$."
+  },
+  {
+    "id": "M-ALG-005", "subject": "math", "area": "algebra", "rit": 235,
+    "stem": "If $x + y = 10$ and $x - y = 4$, what is the value of $xy$?",
+    "choices": ["$21$", "$24$", "$16$", "$40$"], "answer": 0, "calc": "7*3",
+    "explanation": "Add the two equations: $2x = 14$, so $x = 7$. Then $y = 10 - 7 = 3$, and $xy = 7 \\cdot 3 = 21$."
+  },
+  {
+    "id": "M-ALG-006", "subject": "math", "area": "algebra", "rit": 240,
+    "stem": "Which expression is equivalent to $x^2 - 5x - 14$?",
+    "choices": ["$(x - 7)(x + 2)$", "$(x + 7)(x - 2)$", "$(x - 14)(x + 1)$", "$(x - 7)(x - 2)$"], "answer": 0,
+    "explanation": "Find two numbers that multiply to $-14$ and add to $-5$: they are $-7$ and $2$. So $x^2 - 5x - 14 = (x - 7)(x + 2)$. Check: $x^2 + 2x - 7x - 14 = x^2 - 5x - 14$."
+  },
+  {
+    "id": "M-ALG-007", "subject": "math", "area": "algebra", "rit": 245,
+    "stem": "A gym charges a one-time sign-up fee plus the same fee every month. The total cost for 3 months is 95 dollars, and the total cost for 7 months is 175 dollars. What is the sign-up fee, in dollars?",
+    "choices": ["$35$", "$20$", "$15$", "$55$"], "answer": 0, "calc": "95-3*(175-95)/(7-3)",
+    "explanation": "Going from 3 to 7 months adds 4 months and $175 - 95 = 80$ dollars, so the monthly fee is $80 \\div 4 = 20$. For 3 months: $95 = \\text{fee} + 3(20)$, so the sign-up fee is $95 - 60 = 35$ dollars."
+  },
+  {
+    "id": "M-ALG-008", "subject": "math", "area": "algebra", "rit": 250,
+    "stem": "What are the solutions of $x^2 - 6x + 5 = 0$?",
+    "choices": ["$x = 1$ and $x = 5$", "$x = -1$ and $x = -5$", "$x = 2$ and $x = 3$", "$x = -1$ and $x = 5$"], "answer": 0,
+    "explanation": "Factor: $x^2 - 6x + 5 = (x - 1)(x - 5) = 0$. A product is zero when one factor is zero, so $x = 1$ or $x = 5$."
+  },
+  {
+    "id": "M-ALG-009", "subject": "math", "area": "algebra", "rit": 255,
+    "stem": "If $f(x) = 3x - 1$ and $g(x) = x^2 + 2$, what is $f(g(2))$?",
+    "choices": ["$17$", "$27$", "$11$", "$15$"], "answer": 0, "calc": "3*(2**2+2)-1",
+    "explanation": "Work from the inside out. $g(2) = 2^2 + 2 = 6$. Then $f(6) = 3(6) - 1 = 17$. (The answer $27$ comes from computing $g(f(2))$ instead.)"
+  },
+  {
+    "id": "M-ALG-010", "subject": "math", "area": "algebra", "rit": 262,
+    "stem": "What is the vertex of the parabola $y = 2x^2 - 12x + 7$?",
+    "choices": ["$(3, -11)$", "$(-3, 61)$", "$(3, 7)$", "$(6, 7)$"], "answer": 0,
+    "explanation": "The vertex's $x$-coordinate is $x = -\\frac{b}{2a} = -\\frac{-12}{2(2)} = 3$. Then $y = 2(3)^2 - 12(3) + 7 = 18 - 36 + 7 = -11$. The vertex is $(3, -11)$."
+  },
+
+  {
+    "id": "M-NUM-001", "subject": "math", "area": "numbers", "rit": 215,
+    "stem": "Which number is irrational?",
+    "choices": ["$\\sqrt{20}$", "$\\sqrt{49}$", "$0.\\overline{3}$", "$\\frac{7}{8}$"], "answer": 0,
+    "explanation": "$\\sqrt{49} = 7$, $0.\\overline{3} = \\frac{1}{3}$, and $\\frac{7}{8}$ are all fractions of integers, so they are rational. $20$ is not a perfect square, so $\\sqrt{20}$ cannot be written as a fraction: it is irrational."
+  },
+  {
+    "id": "M-NUM-002", "subject": "math", "area": "numbers", "rit": 220,
+    "stem": "What is the value of $(-3)^2 - 4 \\cdot 5$?",
+    "choices": ["$-11$", "$29$", "$-29$", "$25$"], "answer": 0, "calc": "(-3)**2-4*5",
+    "explanation": "Exponents first: $(-3)^2 = 9$. Then multiplication: $4 \\cdot 5 = 20$. Finally $9 - 20 = -11$."
+  },
+  {
+    "id": "M-NUM-003", "subject": "math", "area": "numbers", "rit": 225,
+    "stem": "Which percent is equal to $\\frac{3}{8}$?",
+    "choices": ["$37.5\\%$", "$3.75\\%$", "$38\\%$", "$26.7\\%$"], "answer": 0, "calc": "3/8*100",
+    "explanation": "$3 \\div 8 = 0.375$. Multiply by $100$ to convert to a percent: $37.5\\%$."
+  },
+  {
+    "id": "M-NUM-004", "subject": "math", "area": "numbers", "rit": 230,
+    "stem": "A jacket costs 80 dollars. The price is increased by $25\\%$, and then the new price is decreased by $20\\%$. What is the final price, in dollars?",
+    "choices": ["$80$", "$84$", "$76$", "$85$"], "answer": 0, "calc": "80*1.25*0.8",
+    "explanation": "After the increase: $80 \\times 1.25 = 100$. After the decrease: $100 \\times 0.80 = 80$. The final price is back to 80 dollars, because $1.25 \\times 0.8 = 1$."
+  },
+  {
+    "id": "M-NUM-005", "subject": "math", "area": "numbers", "rit": 235,
+    "stem": "Which expression is equivalent to $\\dfrac{x^5 \\cdot x^3}{x^2}$ for $x \\neq 0$?",
+    "choices": ["$x^6$", "$x^{13}$", "$x^{15}$", "$x^4$"], "answer": 0,
+    "explanation": "When multiplying powers with the same base, add exponents: $x^5 \\cdot x^3 = x^8$. When dividing, subtract: $x^8 \\div x^2 = x^6$."
+  },
+  {
+    "id": "M-NUM-006", "subject": "math", "area": "numbers", "rit": 240,
+    "stem": "What is $(4 \\times 10^5)(3 \\times 10^{-2})$ written in scientific notation?",
+    "choices": ["$1.2 \\times 10^{4}$", "$1.2 \\times 10^{3}$", "$7 \\times 10^{3}$", "$1.2 \\times 10^{-10}$"], "answer": 0, "calc": "4e5*3e-2",
+    "explanation": "Multiply the numbers: $4 \\times 3 = 12$. Add the exponents: $10^{5 + (-2)} = 10^3$. So the product is $12 \\times 10^3 = 1.2 \\times 10^4$."
+  },
+  {
+    "id": "M-NUM-007", "subject": "math", "area": "numbers", "rit": 245,
+    "stem": "Which expression is equal to $\\sqrt{50} + \\sqrt{18}$?",
+    "choices": ["$8\\sqrt{2}$", "$\\sqrt{68}$", "$4\\sqrt{2}$", "$15\\sqrt{2}$"], "answer": 0, "calc": "Math.sqrt(50)+Math.sqrt(18)",
+    "explanation": "Simplify each root: $\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$ and $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$. Add like terms: $5\\sqrt{2} + 3\\sqrt{2} = 8\\sqrt{2}$. Note that $\\sqrt{a} + \\sqrt{b} \\neq \\sqrt{a + b}$."
+  },
+  {
+    "id": "M-NUM-008", "subject": "math", "area": "numbers", "rit": 250,
+    "stem": "What is the value of $8^{\\frac{2}{3}}$?",
+    "choices": ["$4$", "$2$", "$16$", "$\\frac{16}{3}$"], "answer": 0, "calc": "8**(2/3)",
+    "explanation": "A fractional exponent $\\frac{2}{3}$ means take the cube root, then square: $\\sqrt[3]{8} = 2$, and $2^2 = 4$."
+  },
+  {
+    "id": "M-NUM-009", "subject": "math", "area": "numbers", "rit": 256,
+    "stem": "Which expression is equal to $(3 + 2i)(1 - i)$, where $i = \\sqrt{-1}$?",
+    "choices": ["$5 - i$", "$1 - i$", "$5 + i$", "$3 - 2i$"], "answer": 0,
+    "explanation": "Multiply like binomials: $3 - 3i + 2i - 2i^2$. Since $i^2 = -1$, $-2i^2 = +2$. Combine: $(3 + 2) + (-3i + 2i) = 5 - i$."
+  },
+  {
+    "id": "M-NUM-010", "subject": "math", "area": "numbers", "rit": 262,
+    "stem": "Which expression is equivalent to $\\dfrac{2}{\\sqrt{3} - 1}$?",
+    "choices": ["$\\sqrt{3} + 1$", "$\\sqrt{3} - 1$", "$2\\sqrt{3} + 2$", "$\\frac{\\sqrt{3} + 1}{2}$"], "answer": 0, "calc": "2/(Math.sqrt(3)-1)",
+    "explanation": "Multiply the top and bottom by the conjugate $\\sqrt{3} + 1$: $\\frac{2(\\sqrt{3} + 1)}{(\\sqrt{3})^2 - 1^2} = \\frac{2(\\sqrt{3} + 1)}{2} = \\sqrt{3} + 1$."
+  },
+
+  {
+    "id": "M-GEO-001", "subject": "math", "area": "geometry", "rit": 215,
+    "stem": "A rectangle has a perimeter of 34 cm and a length of 12 cm. What is its area, in square centimeters?",
+    "choices": ["$60$", "$22$", "$144$", "$408$"], "answer": 0, "calc": "12*(34/2-12)",
+    "explanation": "Perimeter $= 2(\\text{length} + \\text{width})$, so $\\text{length} + \\text{width} = 17$ and the width is $17 - 12 = 5$ cm. Area $= 12 \\times 5 = 60$ square cm."
+  },
+  {
+    "id": "M-GEO-002", "subject": "math", "area": "geometry", "rit": 220,
+    "stem": "Two angles of a triangle measure $47^\\circ$ and $68^\\circ$. What is the measure of the third angle?",
+    "choices": ["$65^\\circ$", "$115^\\circ$", "$75^\\circ$", "$55^\\circ$"], "answer": 0, "calc": "180-47-68",
+    "explanation": "The angles of a triangle add up to $180^\\circ$: $180 - 47 - 68 = 65^\\circ$."
+  },
+  {
+    "id": "M-GEO-003", "subject": "math", "area": "geometry", "rit": 226,
+    "stem": "A right triangle has legs of length 9 and 12. What is the length of the hypotenuse?",
+    "choices": ["$15$", "$21$", "$\\sqrt{63}$", "$17$"], "answer": 0, "calc": "Math.hypot(9,12)",
+    "explanation": "By the Pythagorean theorem, $c^2 = 9^2 + 12^2 = 81 + 144 = 225$, so $c = 15$."
+  },
+  {
+    "id": "M-GEO-004", "subject": "math", "area": "geometry", "rit": 232,
+    "stem": "A cylinder has a radius of 3 inches and a height of 10 inches. What is its volume, in cubic inches?",
+    "choices": ["$90\\pi$", "$30\\pi$", "$60\\pi$", "$180\\pi$"], "answer": 0, "calc": "Math.PI*3**2*10",
+    "explanation": "Volume of a cylinder $= \\pi r^2 h = \\pi (3)^2 (10) = 90\\pi$ cubic inches."
+  },
+  {
+    "id": "M-GEO-005", "subject": "math", "area": "geometry", "rit": 236,
+    "stem": "The point $(2, -5)$ is reflected across the $y$-axis. What are the coordinates of its image?",
+    "choices": ["$(-2, -5)$", "$(2, 5)$", "$(-2, 5)$", "$(-5, 2)$"], "answer": 0,
+    "explanation": "Reflecting across the $y$-axis changes the sign of the $x$-coordinate only: $(x, y) \\to (-x, y)$. So $(2, -5) \\to (-2, -5)$."
+  },
+  {
+    "id": "M-GEO-006", "subject": "math", "area": "geometry", "rit": 240,
+    "stem": "A triangle has sides of length 4, 6, and 8. A similar triangle has a shortest side of length 10. What is the length of its longest side?",
+    "choices": ["$20$", "$14$", "$12$", "$16$"], "answer": 0, "calc": "8*10/4",
+    "explanation": "The scale factor is $\\frac{10}{4} = 2.5$. The longest side becomes $8 \\times 2.5 = 20$. (Adding 6 to every side, which gives 14, does not keep the shape similar.)"
+  },
+  {
+    "id": "M-GEO-007", "subject": "math", "area": "geometry", "rit": 245,
+    "stem": "What is the distance between the points $(-2, 3)$ and $(4, -5)$?",
+    "choices": ["$10$", "$14$", "$\\sqrt{28}$", "$8$"], "answer": 0, "calc": "Math.hypot(4-(-2),-5-3)",
+    "explanation": "The horizontal change is $4 - (-2) = 6$ and the vertical change is $-5 - 3 = -8$. Distance $= \\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$."
+  },
+  {
+    "id": "M-GEO-008", "subject": "math", "area": "geometry", "rit": 250,
+    "stem": "A circle has a circumference of $18\\pi$ meters. What is its area, in square meters?",
+    "choices": ["$81\\pi$", "$324\\pi$", "$36\\pi$", "$162\\pi$"], "answer": 0, "calc": "Math.PI*9**2",
+    "explanation": "Circumference $= 2\\pi r = 18\\pi$, so $r = 9$. Area $= \\pi r^2 = 81\\pi$ square meters."
+  },
+  {
+    "id": "M-GEO-009", "subject": "math", "area": "geometry", "rit": 255,
+    "stem": "In a right triangle, one acute angle measures $30^\\circ$ and the hypotenuse is 14 units long. What is the length of the side opposite the $30^\\circ$ angle?",
+    "choices": ["$7$", "$7\\sqrt{3}$", "$14\\sqrt{3}$", "$28$"], "answer": 0, "calc": "14*Math.sin(Math.PI/6)",
+    "explanation": "$\\sin 30^\\circ = \\frac{\\text{opposite}}{\\text{hypotenuse}}$, and $\\sin 30^\\circ = \\frac{1}{2}$. So the opposite side is $14 \\times \\frac{1}{2} = 7$. (In a 30-60-90 triangle, the shortest side is half the hypotenuse.)"
+  },
+  {
+    "id": "M-GEO-010", "subject": "math", "area": "geometry", "rit": 263,
+    "stem": "What is the radius of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$?",
+    "choices": ["$5$", "$\\sqrt{12}$", "$25$", "$12$"], "answer": 0, "calc": "Math.sqrt(12+9+4)",
+    "explanation": "Complete the square: $(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4$, so $(x - 3)^2 + (y + 2)^2 = 25$. The radius is $\\sqrt{25} = 5$."
+  },
+
+  {
+    "id": "M-STA-001", "subject": "math", "area": "statistics", "rit": 215,
+    "stem": "What is the mean of the data set $4, 8, 10, 6, 12$?",
+    "choices": ["$8$", "$10$", "$40$", "$6$"], "answer": 0, "calc": "(4+8+10+6+12)/5",
+    "explanation": "Add the values: $4 + 8 + 10 + 6 + 12 = 40$. Divide by the number of values: $40 \\div 5 = 8$."
+  },
+  {
+    "id": "M-STA-002", "subject": "math", "area": "statistics", "rit": 220,
+    "stem": "What is the median of the data set $3, 9, 4, 7, 12, 5$?",
+    "choices": ["$6$", "$7$", "$6.5$", "$5$"], "answer": 0, "calc": "(5+7)/2",
+    "explanation": "Order the data: $3, 4, 5, 7, 9, 12$. With an even number of values, the median is the mean of the two middle values: $\\frac{5 + 7}{2} = 6$."
+  },
+  {
+    "id": "M-STA-003", "subject": "math", "area": "statistics", "rit": 225,
+    "stem": "A bag contains 5 red, 3 blue, and 2 green marbles. One marble is chosen at random. What is the probability that it is NOT red?",
+    "choices": ["$\\frac{1}{2}$", "$\\frac{1}{5}$", "$\\frac{3}{10}$", "$\\frac{1}{3}$"], "answer": 0, "calc": "(3+2)/(5+3+2)",
+    "explanation": "There are $10$ marbles, and $3 + 2 = 5$ are not red. The probability is $\\frac{5}{10} = \\frac{1}{2}$."
+  },
+  {
+    "id": "M-STA-004", "subject": "math", "area": "statistics", "rit": 230,
+    "stem": "In a random sample of 160 students, 40 said soccer is their favorite sport. The school has 1,200 students. Based on the sample, about how many students in the school would say soccer is their favorite sport?",
+    "choices": ["$300$", "$400$", "$160$", "$240$"], "answer": 0, "calc": "1200*40/160",
+    "explanation": "In the sample, $\\frac{40}{160} = \\frac{1}{4}$ of students chose soccer. For the whole school: $\\frac{1}{4} \\times 1200 = 300$."
+  },
+  {
+    "id": "M-STA-005", "subject": "math", "area": "statistics", "rit": 236,
+    "stem": "What is the interquartile range (IQR) of the data set $2, 4, 5, 7, 9, 10, 12, 15$?",
+    "choices": ["$6.5$", "$13$", "$8$", "$5.5$"], "answer": 0, "calc": "(10+12)/2-(4+5)/2",
+    "explanation": "Lower half: $2, 4, 5, 7$, so $Q_1 = \\frac{4 + 5}{2} = 4.5$. Upper half: $9, 10, 12, 15$, so $Q_3 = \\frac{10 + 12}{2} = 11$. IQR $= Q_3 - Q_1 = 11 - 4.5 = 6.5$."
+  },
+  {
+    "id": "M-STA-006", "subject": "math", "area": "statistics", "rit": 240,
+    "stem": "A fair coin is flipped and a fair six-sided die is rolled. What is the probability of getting heads AND a 6?",
+    "choices": ["$\\frac{1}{12}$", "$\\frac{2}{3}$", "$\\frac{1}{6}$", "$\\frac{1}{8}$"], "answer": 0, "calc": "(1/2)*(1/6)",
+    "explanation": "The events are independent, so multiply: $P(\\text{heads}) \\times P(6) = \\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$. (Adding the probabilities, $\\frac{2}{3}$, is a common mistake.)"
+  },
+  {
+    "id": "M-STA-007", "subject": "math", "area": "statistics", "rit": 245,
+    "stem": "A scatter plot shows hours studied ($x$) and test score ($y$) for a class. The line of best fit is $y = 2.5x + 40$. What does the slope of the line mean in this situation?",
+    "choices": [
+      "For each additional hour studied, the predicted score increases by about 2.5 points.",
+      "A student who does not study is predicted to score 2.5 points.",
+      "For each additional point scored, a student studied about 2.5 more hours.",
+      "Every student in the class studied for 2.5 hours."
+    ], "answer": 0,
+    "explanation": "Slope is the change in $y$ per 1-unit change in $x$. Here, each extra hour ($x$) is linked to about $2.5$ more points ($y$). The $40$ is the $y$-intercept: the predicted score for 0 hours."
+  },
+  {
+    "id": "M-STA-008", "subject": "math", "area": "statistics", "rit": 250,
+    "stem": "A box contains 4 red cards and 6 blue cards. Two cards are drawn at random without replacement. What is the probability that both cards are red?",
+    "choices": ["$\\frac{2}{15}$", "$\\frac{4}{25}$", "$\\frac{1}{5}$", "$\\frac{7}{45}$"], "answer": 0, "calc": "(4/10)*(3/9)",
+    "explanation": "First card red: $\\frac{4}{10}$. After removing one red card, 3 red cards remain out of 9: $\\frac{3}{9}$. Multiply: $\\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$. ($\\frac{4}{25}$ would be the answer WITH replacement.)"
+  },
+  {
+    "id": "M-STA-009", "subject": "math", "area": "statistics", "rit": 255,
+    "stem": "The mean of five numbers is 12. When a sixth number is added, the mean becomes 14. What is the sixth number?",
+    "choices": ["$24$", "$14$", "$16$", "$26$"], "answer": 0, "calc": "6*14-5*12",
+    "explanation": "The first five numbers add up to $5 \\times 12 = 60$. All six add up to $6 \\times 14 = 84$. The sixth number is $84 - 60 = 24$."
+  },
+  {
+    "id": "M-STA-010", "subject": "math", "area": "statistics", "rit": 262,
+    "stem": "Which data set has the greatest standard deviation?",
+    "choices": ["$2, 6, 14, 18$", "$10, 10, 10, 10$", "$8, 9, 11, 12$", "$9, 10, 10, 11$"], "answer": 0,
+    "explanation": "Standard deviation measures how spread out values are from the mean. All four sets have a mean of 10, but $2, 6, 14, 18$ has values farthest from 10, so it has the greatest spread. $10, 10, 10, 10$ has a standard deviation of 0."
+  }
+]
