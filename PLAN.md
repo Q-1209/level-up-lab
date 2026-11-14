@@ -129,7 +129,8 @@ Grade 10 の目安 RIT 帯: **Math 215〜265 / Reading 205〜250**（Grade 10 �
 
 ### 進捗
 - [x] 1週目 前半（2026-11-14）: Vite+React+TS の骨組み、問題データ形式＋検証スクリプト（`npm run validate`）、Math 40問・Reading 4パッセージ23問、分野別練習モード
-- [ ] 1週目 後半: 公開（GitHub Pages / Vercel）→ 友達にURLを送る
+- [x] 1週目 後半（2026-11-14）: GitHub Pages で公開 → https://q-1209.github.io/level-up-lab/ （main に push すると自動デプロイ）
+- [ ] 友達にURLを送り、感想・難易度をもらう
 
 ## 9. 未確定事項（決めておきたいこと）
 
@@ -138,4 +139,4 @@ Grade 10 の目安 RIT 帯: **Math 215〜265 / Reading 205〜250**（Grade 10 �
 - [x] 本番の受験時期 → 1ヶ月以内
 - [x] 言語 → 全部英語
 - [x] アプリ名 → Level Up Lab
-- [ ] 公開方法: GitHub Pages / Vercel（どちらも無料。GitHubアカウントが必要）→ 1週目後半までに決める
+- [x] 公開方法 → GitHub Pages（リポジトリ Q-1209/level-up-lab、Public）
