@@ -203,3 +203,4 @@ button:disabled { cursor: default; }
 .lookup { font-size: 0.8rem; color: var(--brand); text-decoration: none; }
 .remove { color: var(--muted); font-size: 0.85rem; }
 .word-context { font-size: 0.85rem; color: var(--muted); font-style: italic; }
+.stem { white-space: pre-line; }

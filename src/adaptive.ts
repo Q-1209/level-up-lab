@@ -21,7 +21,9 @@ const prob = (theta: number, b: number) => 1 / (1 + Math.exp(-(theta - b) / S));
  */
 export function estimate(responses: Response[], start: number): { theta: number; se: number } {
   let t = start;
-  for (let it = 0; it < 60; it++) {
+  // Damped Newton's method: the log-posterior is concave, so capping each step at ±10 points
+  // guarantees convergence (undamped steps can overshoot wildly when all answers are right/wrong).
+  for (let it = 0; it < 200; it++) {
     let grad = -(t - start) / PRIOR_SD ** 2;
     let hess = -1 / PRIOR_SD ** 2;
     for (const r of responses) {
@@ -29,7 +31,7 @@ export function estimate(responses: Response[], start: number): { theta: number;
       grad += ((r.correct ? 1 : 0) - p) / S;
       hess -= (p * (1 - p)) / S ** 2;
     }
-    const step = grad / hess;
+    const step = Math.max(-10, Math.min(10, grad / hess));
     t = Math.min(300, Math.max(140, t - step));
     if (Math.abs(step) < 1e-4) break;
   }

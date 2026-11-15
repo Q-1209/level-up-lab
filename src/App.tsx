@@ -15,7 +15,7 @@ const LEVELS: { key: Level; label: string; offset: number; hint: string }[] = [
 
 const TEST_LENGTHS: Record<Subject, { short: number; full: number }> = {
   math: { short: 20, full: 40 },
-  reading: { short: 12, full: 40 },
+  reading: { short: 20, full: 40 },
 };
 
 const subjectName = (s: Subject) => (s === "math" ? "Math" : "Reading");
