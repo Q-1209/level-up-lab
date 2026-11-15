@@ -1,8 +1,12 @@
 import katex from "katex";
-import { Fragment, useMemo } from "react";
+import { useMemo } from "react";
+import { MarkableText } from "../words";
 
-/** Renders plain text with inline LaTeX between $...$ (KaTeX). */
-export function MathText({ text }: { text: string }) {
+/**
+ * Renders plain text with inline LaTeX between $...$ (KaTeX).
+ * Words in the plain-text parts can be tapped to save them while "mark words" mode is on.
+ */
+export function MathText({ text, questionId }: { text: string; questionId?: string }) {
   const parts = useMemo(() => {
     return text.split("$").map((chunk, i) => {
       if (i % 2 === 0) return { math: false, value: chunk };
@@ -17,7 +21,11 @@ export function MathText({ text }: { text: string }) {
   return (
     <>
       {parts.map((p, i) =>
-        p.math ? <span key={i} dangerouslySetInnerHTML={{ __html: p.value }} /> : <Fragment key={i}>{p.value}</Fragment>,
+        p.math ? (
+          <span key={i} dangerouslySetInnerHTML={{ __html: p.value }} />
+        ) : (
+          <MarkableText key={i} text={p.value} source={text} questionId={questionId} />
+        ),
       )}
     </>
   );

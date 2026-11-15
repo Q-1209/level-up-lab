@@ -4,6 +4,7 @@ import { MockTest } from "./components/MockTest";
 import { Practice } from "./components/Practice";
 import { loadTests, missedIds } from "./storage";
 import { AREA_LABELS, SUBJECT_AREAS, type Area, type Subject } from "./types";
+import { useWords } from "./words";
 
 type Level = "warmup" | "onlevel" | "stretch";
 const LEVELS: { key: Level; label: string; offset: number; hint: string }[] = [
@@ -203,12 +204,56 @@ function Home({
             <p className="muted small">Nothing to review yet. Questions you miss in practice or tests will show up here.</p>
           )}
         </section>
+        <MyWords />
       </div>
 
       <footer className="foot muted">
         All questions are original practice items. Scores are estimates, not official RIT scores. Not affiliated with NWEA.
       </footer>
     </main>
+  );
+}
+
+function MyWords() {
+  const { words, remove } = useWords();
+  const [showAll, setShowAll] = useState(false);
+  const list = [...words].reverse();
+  const shown = showAll ? list : list.slice(0, 8);
+
+  return (
+    <section className="panel">
+      <h2>My words {words.length > 0 && <span className="badge">{words.length}</span>}</h2>
+      {words.length === 0 ? (
+        <p className="muted small">
+          While answering a question, press <strong>Mark words I don't know</strong> and tap words in the passage, question or choices. They'll be saved here with
+          the sentence they came from.
+        </p>
+      ) : (
+        <>
+          <ul className="word-list">
+            {shown.map((w) => (
+              <li key={w.word}>
+                <div className="word-row">
+                  <strong className="word">{w.word}</strong>
+                  <a className="lookup" href={`https://dictionary.cambridge.org/dictionary/learner-english/${encodeURIComponent(w.word)}`} target="_blank" rel="noreferrer">
+                    Look up ↗
+                  </a>
+                  <button className="link remove" onClick={() => remove(w.word)} aria-label={`Remove ${w.word}`}>
+                    ✕
+                  </button>
+                </div>
+                <div className="word-context">“{w.context}”</div>
+              </li>
+            ))}
+          </ul>
+          {list.length > 8 && (
+            <button className="link" onClick={() => setShowAll(!showAll)}>
+              {showAll ? "Show fewer" : `Show all ${list.length}`}
+            </button>
+          )}
+        </>
+      )}
+    </section>
   );
 }
 

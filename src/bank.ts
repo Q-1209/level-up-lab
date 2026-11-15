@@ -1,7 +1,14 @@
-import mathData from "./data/math.json";
-import readingData from "./data/reading.json";
-import passageData from "./data/passages.json";
 import type { Area, Passage, Question, Subject } from "./types";
+
+// Every JSON file in src/data is bundled: math*.json, reading*.json, passages*.json.
+const files = import.meta.glob<unknown[]>('./data/*.json', { eager: true, import: 'default' });
+const collect = (prefix: string) =>
+  Object.entries(files)
+    .filter(([path]) => path.split('/').pop()!.startsWith(prefix))
+    .flatMap(([, data]) => data);
+const mathData = collect('math');
+const readingData = collect('reading');
+const passageData = collect('passages');
 
 export const allQuestions = [...mathData, ...readingData] as Question[];
 export const passages = passageData as Passage[];

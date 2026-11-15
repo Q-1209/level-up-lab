@@ -1,16 +1,20 @@
 // Checks the question bank for structural mistakes and (for math) wrong answer keys.
 // Run: npm run validate
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { SUBJECT_AREAS, type Passage, type Question } from "../src/types";
 
 const dataDir = join(dirname(fileURLToPath(import.meta.url)), "..", "src", "data");
-const load = <T>(name: string): T => JSON.parse(readFileSync(join(dataDir, name), "utf8")) as T;
+// Loads and concatenates every src/data/<prefix>*.json file.
+const load = <T>(prefix: string): T[] =>
+  readdirSync(dataDir)
+    .filter((f) => f.startsWith(prefix) && f.endsWith('.json'))
+    .flatMap((f) => JSON.parse(readFileSync(join(dataDir, f), 'utf8')) as T[]);
 
-const math = load<Question[]>("math.json");
-const reading = load<Question[]>("reading.json");
-const passages = load<Passage[]>("passages.json");
+const math = load<Question>('math');
+const reading = load<Question>('reading');
+const passages = load<Passage>('passages');
 
 const errors: string[] = [];
 const warnings: string[] = [];

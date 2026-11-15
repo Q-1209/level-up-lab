@@ -1,4 +1,5 @@
 import type { Passage } from "../types";
+import { MarkableText } from "../words";
 
 export function PassageView({ passage }: { passage: Passage }) {
   const blocks = passage.text.split(/\n\s*\n/);
@@ -10,7 +11,7 @@ export function PassageView({ passage }: { passage: Passage }) {
             <p key={i} className="stanza">
               {stanza.split("\n").map((line, j) => (
                 <span key={j} className="poem-line">
-                  {line}
+                  <MarkableText text={line} source={line} questionId={passage.id} />
                 </span>
               ))}
             </p>
@@ -18,7 +19,7 @@ export function PassageView({ passage }: { passage: Passage }) {
         : blocks.map((para, i) => (
             <p key={i}>
               <span className="para-num">{i + 1}</span>
-              {para}
+              <MarkableText text={para} questionId={passage.id} />
             </p>
           ))}
     </article>

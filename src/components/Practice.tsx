@@ -57,7 +57,7 @@ export function Practice({ questions, title, onExit, onRetry, retryLabel = "New 
             <div className={`feedback ${isCorrect ? "good" : "bad"}`}>
               <strong>{isCorrect ? "Correct!" : `Not quite. The answer is ${LETTERS[correctPos]}.`}</strong>
               <p>
-                <MathText text={q.explanation} />
+                <MathText text={q.explanation} questionId={q.id} />
               </p>
             </div>
             <button className="primary" onClick={next}>
