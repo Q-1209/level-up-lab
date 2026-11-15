@@ -1,258 +1,370 @@
 [
   {
-    "id": "R-LIT-001", "subject": "reading", "area": "literary", "rit": 218, "passageId": "P-LIT-001",
+    "id": "R-LIT-001",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 218,
+    "passageId": "P-LIT-001",
     "stem": "Why is Mara worried at the beginning of the story?",
     "choices": [
       "Her grandfather might not be coming to the mainland this year.",
-      "She has already missed the last ferry of the season.",
-      "The ferry has been canceled because of the wind.",
-      "Her grandfather has become too sick to travel."
-    ], "answer": 0,
+      "She has already missed the last ferry and is stuck on the island.",
+      "The ferry has been canceled because the wind is too strong to cross safely.",
+      "Her grandfather has become too sick to make the crossing by himself."
+    ],
+    "answer": 0,
     "explanation": "Paragraph 2 says that \"this year was different\" because her grandfather \"wasn't sure he was coming at all.\" The ferry has not left yet, and the story never says he is sick."
   },
   {
-    "id": "R-LIT-002", "subject": "reading", "area": "literary", "rit": 228, "passageId": "P-LIT-001",
+    "id": "R-LIT-002",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 228,
+    "passageId": "P-LIT-001",
     "stem": "The author describes the cottages as \"scattered along the hill like dropped dice.\" What does this simile suggest?",
     "choices": [
       "The cottages are spread unevenly across the hill.",
       "The cottages are small and cheaply built.",
       "The cottages are in danger of sliding down the hill.",
       "The cottages were won and lost in games of chance."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "When dice are dropped, they land in random, uneven spots. The simile creates a picture of houses spread across the hill in no neat pattern. Nothing suggests they are cheap or in danger."
   },
   {
-    "id": "R-LIT-003", "subject": "reading", "area": "literary", "rit": 236, "passageId": "P-LIT-001",
+    "id": "R-LIT-003",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 236,
+    "passageId": "P-LIT-001",
     "stem": "Why does the grandfather give Mara the white stone?",
     "choices": [
       "He is accepting that he may not return to live on the island.",
       "He wants Mara to put it back on the beach for him in the spring.",
       "He has stopped caring about the island and its memories.",
       "He is annoyed that Mara rushed him to the ferry."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "He usually returns the stone to the beach because he comes back every spring. This time he keeps it and passes it on, saying \"someone else should hold on to it.\" This shows he is letting go of his life there—not that he has stopped caring, since he treats the stone so carefully."
   },
   {
-    "id": "R-LIT-004", "subject": "reading", "area": "literary", "rit": 244, "passageId": "P-LIT-001",
+    "id": "R-LIT-004",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 244,
+    "passageId": "P-LIT-001",
     "stem": "What is the effect of the final sentence: \"They walked to the ferry together, and he did not look back again\"?",
     "choices": [
       "It suggests that he has made a difficult decision and is moving forward.",
-      "It shows that he is angry at Mara for interrupting him.",
-      "It reveals that he has forgotten something on the island.",
-      "It suggests that the ferry will leave without them."
-    ], "answer": 0,
+      "It shows that he is still angry at Mara for interrupting his last look at the island.",
+      "It reveals that he has forgotten something important back at his cottage.",
+      "It suggests that the ferry will leave before they can get on board."
+    ],
+    "answer": 0,
     "explanation": "Earlier he stood looking back at the island for a long time. Not looking back \"again\" contrasts with that moment and shows he has made peace with leaving. Walking \"together\" also shows he is not angry with Mara."
   },
   {
-    "id": "R-LIT-005", "subject": "reading", "area": "literary", "rit": 250, "passageId": "P-LIT-001",
+    "id": "R-LIT-005",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 250,
+    "passageId": "P-LIT-001",
     "stem": "How does Mara's reaction to her mother's comment change over the course of the story?",
     "choices": [
       "At first she dismisses it, but later she begins to understand it.",
       "At first she agrees with it, but later she thinks her mother exaggerated.",
       "She finds it funny throughout the story.",
       "She ignores it until her grandfather repeats it to her."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "Mara \"had rolled her eyes then\" (dismissing it), but on the windy dock \"she wasn't so sure it was funny\" anymore—she begins to see how hard leaving is for her grandfather."
   },
   {
-    "id": "R-VOC-001", "subject": "reading", "area": "vocabulary", "rit": 222, "passageId": "P-LIT-001",
+    "id": "R-VOC-001",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 222,
+    "passageId": "P-LIT-001",
     "stem": "In paragraph 2, the phrase \"every October he cut it close\" most nearly means that he",
     "choices": [
       "arrived with very little time to spare.",
       "made his visit shorter than planned.",
       "argued with the family about the trip.",
       "traveled in a careless and dangerous way."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "\"Cut it close\" is an idiom meaning to leave very little margin, especially of time. The context—Mara watching the clock as the ferry is about to leave—supports this meaning."
   },
-
   {
-    "id": "R-LIT-006", "subject": "reading", "area": "literary", "rit": 232, "passageId": "P-LIT-002",
+    "id": "R-LIT-006",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 232,
+    "passageId": "P-LIT-002",
     "stem": "Which line from the poem best expresses its central theme?",
     "choices": [
       "\"Some promises take a lifetime to keep.\"",
       "\"fifty saplings, thin as pencils,\"",
       "\"Now I walk the rows in October.\"",
       "\"The branches bow low to the ground.\""
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "The poem is about the father's long-term \"promise\" (planting trees for the future) and how it is finally fulfilled years later. The other lines are descriptive details that support this idea but do not state it."
   },
   {
-    "id": "R-LIT-007", "subject": "reading", "area": "literary", "rit": 238, "passageId": "P-LIT-002",
+    "id": "R-LIT-007",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 238,
+    "passageId": "P-LIT-002",
     "stem": "The comparisons \"rough as his knuckles\" and \"the trunks lean the way he leaned\" mainly help the reader connect",
     "choices": [
       "the trees to the speaker's father.",
       "the orchard to the old corn field.",
       "the bark to the cold October weather.",
       "the speaker's age to the age of the trees."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "Both comparisons describe the trees using the father's body and posture. The trees have become a living reminder of him."
   },
   {
-    "id": "R-LIT-008", "subject": "reading", "area": "literary", "rit": 245, "passageId": "P-LIT-002",
+    "id": "R-LIT-008",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 245,
+    "passageId": "P-LIT-002",
     "stem": "How does the speaker's attitude toward the father's idea change in the poem?",
     "choices": [
       "The speaker mocks it as a teenager but appreciates it as an adult.",
       "The speaker admires it as a child but rejects it as an adult.",
       "The speaker never understands why the father planted the trees.",
       "The speaker agrees with it at first but later forgets about it."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "\"I laughed at him once, at fifteen\" shows the earlier mocking attitude. Walking the full orchard \"now\" and filling the basket \"slowly\" shows the adult speaker values what the father did."
   },
   {
-    "id": "R-LIT-009", "subject": "reading", "area": "literary", "rit": 252, "passageId": "P-LIT-002",
+    "id": "R-LIT-009",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 252,
+    "passageId": "P-LIT-002",
     "stem": "What does the last line, \"Some are kept by the ones who receive them,\" most likely suggest?",
     "choices": [
       "By harvesting the orchard, the speaker completes what the father started.",
-      "The speaker plans to sell the orchard to someone else.",
-      "The father failed to keep the promises he made.",
-      "Promises are impossible to keep without help from strangers."
-    ], "answer": 0,
+      "The speaker plans to sell the orchard to a stranger who will take better care of it.",
+      "The father failed to keep the promises he made to his family over the years.",
+      "Promises are impossible to keep without help from people we have never met."
+    ],
+    "answer": 0,
     "explanation": "The father planted trees for someone he would \"never meet\" or never see benefit. The speaker, who receives the fruit, is the one who finally fulfills that promise by caring for and harvesting the orchard."
   },
   {
-    "id": "R-VOC-002", "subject": "reading", "area": "vocabulary", "rit": 228, "passageId": "P-LIT-002",
+    "id": "R-VOC-002",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 228,
+    "passageId": "P-LIT-002",
     "stem": "In stanza 3, the word \"bow\" in \"The branches bow low to the ground\" most nearly means",
     "choices": [
       "bend downward.",
       "tie into a loop.",
       "play a stringed instrument.",
       "point toward the front of a ship."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "Here \"bow\" is a verb meaning to bend. The branches bend low because they are heavy with fruit. The other choices are other meanings of the word \"bow\" that do not fit this context."
   },
-
   {
-    "id": "R-INF-001", "subject": "reading", "area": "informational", "rit": 220, "passageId": "P-INF-001",
+    "id": "R-INF-001",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 220,
+    "passageId": "P-INF-001",
     "stem": "Which statement best expresses the central idea of the passage?",
     "choices": [
-      "Cities are warmer than nearby rural areas for several reasons, which causes problems that cities are starting to address.",
-      "Air conditioners are the main reason that cities are hotter than the countryside.",
-      "Green roofs are the most effective way to cool down a city.",
-      "Rural areas are becoming as hot as cities because of new roads."
-    ], "answer": 0,
+      "Cities are warmer than nearby rural areas, which causes problems that cities are starting to address.",
+      "Air conditioners and car engines are the main reason that cities are so much hotter than the countryside.",
+      "Green roofs covered with soil and plants are the most effective way to cool down a crowded city.",
+      "Rural areas are quickly becoming as hot as cities because new roads are being built through farmland."
+    ],
+    "answer": 0,
     "explanation": "The passage explains causes (materials, human activity), effects (energy use, ozone, health), and solutions. Air conditioners and green roofs are only details, and the passage says nothing about rural areas heating up."
   },
   {
-    "id": "R-INF-002", "subject": "reading", "area": "informational", "rit": 228, "passageId": "P-INF-001",
+    "id": "R-INF-002",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 228,
+    "passageId": "P-INF-001",
     "stem": "According to the passage, why is the temperature difference between a city and the countryside often greatest at night?",
     "choices": [
       "Pavement and buildings release stored heat slowly, while rural areas cool quickly.",
-      "Cities use more electricity at night than during the day.",
-      "Plants in rural areas absorb heat from the city after sunset.",
-      "Wind blows warm air from the countryside into the city at night."
-    ], "answer": 0,
+      "Cities use much more electricity at night than during the day, which heats the air around them.",
+      "Plants in rural areas absorb heat from the city after sunset and carry it away from the streets.",
+      "Wind blows warm air from the countryside into the city at night, raising its temperature."
+    ],
+    "answer": 0,
     "explanation": "Paragraph 2 says city materials \"release that stored heat slowly, long after sunset,\" and paragraph 3 says rural areas \"cool quickly but cities stay warm.\""
   },
   {
-    "id": "R-INF-003", "subject": "reading", "area": "informational", "rit": 235, "passageId": "P-INF-001",
+    "id": "R-INF-003",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 235,
+    "passageId": "P-INF-001",
     "stem": "Why does the author compare plants releasing water vapor to the way \"sweat cools skin\"?",
     "choices": [
       "To explain a scientific process by using a familiar example",
       "To argue that people should spend more time outdoors",
       "To show that plants and humans are closely related",
       "To suggest that heat islands make people sweat more"
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "Most readers already know how sweating cools the body. The comparison uses that everyday experience to make evaporative cooling by plants easier to understand."
   },
   {
-    "id": "R-INF-004", "subject": "reading", "area": "informational", "rit": 242, "passageId": "P-INF-001",
+    "id": "R-INF-004",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 242,
+    "passageId": "P-INF-001",
     "stem": "Which sentence from the passage best supports the claim that urban heat islands are \"not just uncomfortable\"?",
     "choices": [
       "\"Most seriously, extreme heat is dangerous to human health, especially for older adults and people without access to air conditioning.\"",
       "\"Scientists call this effect an urban heat island, and it is becoming one of the most important challenges facing growing cities.\"",
       "\"Tall buildings can also block wind, trapping warm air between them.\"",
       "\"A few cities have even built 'green roofs' covered with soil and plants.\""
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "The claim is that heat islands cause real harm beyond discomfort. Only the first choice describes a serious consequence (danger to health). The others describe the name, a cause, or a solution."
   },
   {
-    "id": "R-INF-005", "subject": "reading", "area": "informational", "rit": 250, "passageId": "P-INF-001",
+    "id": "R-INF-005",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 250,
+    "passageId": "P-INF-001",
     "stem": "How is the passage mainly organized?",
     "choices": [
       "It describes a problem, explains its causes and effects, and then presents possible solutions.",
-      "It tells the history of one city in the order that events happened.",
-      "It compares two cities and argues that one is better designed.",
-      "It presents several opinions and asks the reader to choose one."
-    ], "answer": 0,
+      "It tells the history of one city's struggle with heat in the order that the events happened over time.",
+      "It compares two different cities and argues that one of them is better designed for hot summers.",
+      "It presents several scientists' opinions and asks the reader to decide which one is most convincing."
+    ],
+    "answer": 0,
     "explanation": "Paragraph 1 introduces the problem, paragraphs 2–3 give causes, paragraph 4 gives effects, and paragraph 5 gives solutions. This is a problem-and-solution structure that also uses cause and effect."
   },
   {
-    "id": "R-VOC-003", "subject": "reading", "area": "vocabulary", "rit": 236, "passageId": "P-INF-001",
+    "id": "R-VOC-003",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 236,
+    "passageId": "P-INF-001",
     "stem": "In paragraph 4, the word \"strain\" in \"which can strain power grids during heat waves\" most nearly means",
     "choices": [
       "put heavy pressure on.",
       "pass a liquid through a filter.",
       "injure by stretching a muscle.",
       "make stronger over time."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "When everyone runs air conditioners at once, the power grid is pushed close to its limit. \"Strain\" here means to put heavy pressure or demand on something."
   },
-
   {
-    "id": "R-INF-006", "subject": "reading", "area": "informational", "rit": 238, "passageId": "P-INF-002",
+    "id": "R-INF-006",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 238,
+    "passageId": "P-INF-002",
     "stem": "According to the passage, why did \"local time\" cause few problems before the railroads?",
     "choices": [
       "Most people had little need to know the exact time in faraway places.",
       "Every town in the country agreed to use the same clock time.",
       "The government strictly controlled how towns set their clocks.",
       "Clocks were too expensive for most towns to own."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "Paragraph 1 says, \"A farmer had little reason to care what time it was fifty miles away.\" Towns did NOT share one time—that was the whole point of local time."
   },
   {
-    "id": "R-INF-007", "subject": "reading", "area": "informational", "rit": 244, "passageId": "P-INF-002",
+    "id": "R-INF-007",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 244,
+    "passageId": "P-INF-002",
     "stem": "What is the main purpose of paragraph 2?",
     "choices": [
-      "To explain how railroad travel made the old way of keeping time impractical",
-      "To describe the day that clocks across the country were reset",
-      "To argue that railroads were careless about passenger safety",
-      "To show why newspapers opposed standard time"
-    ], "answer": 0,
+      "Most people had little need to know the exact time in faraway places.",
+      "Every town in the country had already agreed to use the same clock time as Boston.",
+      "The government strictly controlled how and when each town was allowed to set its clocks.",
+      "Clocks were too expensive for most towns to own, so few people knew the time."
+    ],
+    "answer": 0,
     "explanation": "Paragraph 2 describes the confusion trains created—dozens of railroad times, clocks that disagreed, missed connections, and accidents. It sets up the problem that standard time later solved."
   },
   {
-    "id": "R-INF-008", "subject": "reading", "area": "informational", "rit": 250, "passageId": "P-INF-002",
+    "id": "R-INF-008",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 250,
+    "passageId": "P-INF-002",
     "stem": "What can be inferred from the fact that the U.S. government did not make time zones law until 1918?",
     "choices": [
-      "Standard time had already become widely accepted through everyday use before it became law.",
-      "Most Americans refused to use standard time until 1918.",
-      "The railroads stopped using time zones between 1883 and 1918.",
-      "The government invented time zones in 1918."
-    ], "answer": 0,
+      "To explain how railroad travel made the old way of keeping time impractical",
+      "To describe the exciting day in 1883 when clocks across the country were stopped and reset",
+      "To argue that the railroad companies were careless about the safety of their passengers",
+      "To show why some newspapers strongly opposed the new system of standard time"
+    ],
+    "answer": 0,
     "explanation": "The passage says most towns \"soon adopted\" standard time and that the railroads had \"already made them part of daily life\" before 1918. So the law confirmed something people were already doing."
   },
   {
-    "id": "R-INF-009", "subject": "reading", "area": "informational", "rit": 256, "passageId": "P-INF-002",
+    "id": "R-INF-009",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 256,
+    "passageId": "P-INF-002",
     "stem": "Which sentence from the passage best shows that the change to standard time was controversial?",
     "choices": [
       "\"Some newspapers complained that the railroads, which were private businesses, had no right to change the time for an entire nation.\"",
-      "\"In many cities, crowds gathered to watch as clocks were stopped and then restarted to match the new time.\"",
-      "\"By the early 1880s, travelers faced dozens of different railroad times across the country.\"",
-      "\"Each town set its clocks by the sun, declaring noon to be the moment the sun stood highest in the sky.\""
-    ], "answer": 0,
+      "\"Because the sun appears to move across the sky from east to west, noon in Boston arrived several minutes before noon in New York, which arrived before noon in Philadelphia.\"",
+      "\"Remarkably, the U.S. government did not make time zones official law until 1918—thirty-five years after the railroads had already made them part of daily life.\"",
+      "\"A passenger changing trains could find that the station clock, the train clock, and the clock in the town square all disagreed.\""
+    ],
+    "answer": 0,
     "explanation": "\"Controversial\" means people disagreed about it. Only the first sentence shows disagreement—newspapers objecting to the railroads' authority."
   },
   {
-    "id": "R-INF-010", "subject": "reading", "area": "informational", "rit": 262, "passageId": "P-INF-002",
+    "id": "R-INF-010",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 262,
+    "passageId": "P-INF-002",
     "stem": "The title \"Who Owns the Time?\" most directly reflects which idea in the passage?",
     "choices": [
       "The debate over whether private companies should control something that affects everyone",
-      "The difficulty of building accurate clocks in the 1800s",
-      "The competition between Boston, New York, and Philadelphia",
-      "The cost of buying train tickets in different time zones"
-    ], "answer": 0,
+      "The difficulty that clockmakers faced in building accurate clocks during the 1800s",
+      "The competition between Boston, New York, and Philadelphia to be the first city to reach noon",
+      "The rising cost of buying train tickets for trips that crossed several different time zones"
+    ],
+    "answer": 0,
     "explanation": "The title asks a question about authority. Paragraph 4 raises exactly that issue: critics said time \"belonged to the sun, not to a corporation,\" and newspapers questioned the railroads' \"right\" to change it."
   },
   {
-    "id": "R-VOC-004", "subject": "reading", "area": "vocabulary", "rit": 244, "passageId": "P-INF-002",
+    "id": "R-VOC-004",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 244,
+    "passageId": "P-INF-002",
     "stem": "In paragraph 4, the word \"adopted\" in \"most towns soon adopted it\" most nearly means",
     "choices": [
       "began to use.",
       "took in and raised as one's own child.",
       "voted against.",
       "changed slightly."
-    ], "answer": 0,
+    ],
+    "answer": 0,
     "explanation": "\"It\" refers to standard time. The towns started using the new system, so \"adopted\" means took up or began to use. The child-raising meaning does not fit the context."
   }
 ]

@@ -224,7 +224,7 @@
     "choices": [
       "For each additional hour studied, the predicted score increases by about 2.5 points.",
       "A student who does not study is predicted to score 2.5 points.",
-      "For each additional point scored, a student studied about 2.5 more hours.",
+      "For each additional point scored on the test, a student studied about 2.5 more hours on average.",
       "Every student in the class studied for 2.5 hours."
     ], "answer": 0,
     "explanation": "Slope is the change in $y$ per 1-unit change in $x$. Here, each extra hour ($x$) is linked to about $2.5$ more points ($y$). The $40$ is the $y$-intercept: the predicted score for 0 hours."

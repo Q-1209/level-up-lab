@@ -111,6 +111,19 @@ report("Math", math);
 report("Reading", reading);
 console.log(`  passages: ${passages.length}`);
 
+// Answer-length bias: if the correct choice is usually the longest, students can guess by length.
+// By chance it would be the longest about 1 time in 4; fail above 35%.
+const visibleLength = (s: string) => s.replace(/\$|\\[a-zA-Z]+|[{}]/g, "").length;
+for (const [label, qs] of [["Math", math], ["Reading", reading]] as const) {
+  const longest = qs.filter((q) => {
+    const L = q.choices.map(visibleLength);
+    return L.every((len, i) => i === q.answer || L[q.answer] > len);
+  }).length;
+  const rate = longest / qs.length;
+  console.log(`  ${label}: correct answer is the longest choice in ${longest}/${qs.length} (${Math.round(rate * 100)}%)`);
+  if (rate > 0.35) errors.push(`${label}: correct answer is the longest choice too often (${Math.round(rate * 100)}% > 35%)`);
+}
+
 if (warnings.length) console.log(`\n${warnings.length} warning(s):\n  ` + warnings.join("\n  "));
 if (errors.length) {
   console.error(`\n${errors.length} error(s):\n  ` + errors.join("\n  "));

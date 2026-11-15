@@ -1,165 +1,626 @@
 [
-  { "id": "R-LIT-028", "subject": "reading", "area": "literary", "rit": 216, "passageId": "P-LIT-007",
+  {
+    "id": "R-LIT-028",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 216,
+    "passageId": "P-LIT-007",
     "stem": "How does Marcus most likely feel in paragraphs 1 and 2?",
-    "choices": ["Disappointed and embarrassed", "Relieved and calm", "Proud and excited", "Confused and curious"], "answer": 0,
-    "explanation": "He reads the list four times hoping his name is there, then walks away \"without looking at anyone\" while others celebrate. These details show disappointment and embarrassment." },
-  { "id": "R-LIT-029", "subject": "reading", "area": "literary", "rit": 224, "passageId": "P-LIT-007",
+    "choices": [
+      "Disappointed and embarrassed",
+      "Relieved that tryouts are over",
+      "Proud and excited",
+      "Confused and curious about the list"
+    ],
+    "answer": 0,
+    "explanation": "He reads the list four times hoping his name is there, then walks away \"without looking at anyone\" while others celebrate. These details show disappointment and embarrassment."
+  },
+  {
+    "id": "R-LIT-029",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 224,
+    "passageId": "P-LIT-007",
     "stem": "Coach Delgado changes Marcus's words \"not good enough\" to \"not good enough yet.\" What does she want him to understand?",
-    "choices": ["He can improve enough to make the team with practice.", "He will never be a strong basketball player.", "He should try out for a different sport.", "He was cut only because of his defense."], "answer": 0,
-    "explanation": "Adding \"yet\" means the situation can change. She backs this up with a list of drills and the date of the next tryouts. She actually says his defense is already good." },
-  { "id": "R-LIT-030", "subject": "reading", "area": "literary", "rit": 232, "passageId": "P-LIT-007",
+    "choices": [
+      "He can improve enough to make the team with practice.",
+      "He will never be a strong enough player to make the team.",
+      "He should try out for a different sport next season.",
+      "He was cut only because of his weak defense."
+    ],
+    "answer": 0,
+    "explanation": "Adding \"yet\" means the situation can change. She backs this up with a list of drills and the date of the next tryouts. She actually says his defense is already good."
+  },
+  {
+    "id": "R-LIT-030",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 232,
+    "passageId": "P-LIT-007",
     "stem": "Marcus folds the paper \"the way you fold something you plan to keep.\" What does this detail suggest?",
-    "choices": ["He has decided to take the coach's advice seriously.", "He plans to throw the paper away later.", "He is angry with the coach.", "He wants to show the paper to his friends."], "answer": 0,
-    "explanation": "People fold things carefully when they value them. This small action shows that Marcus has accepted the coach's plan." },
-  { "id": "R-LIT-031", "subject": "reading", "area": "literary", "rit": 228, "passageId": "P-LIT-007",
+    "choices": [
+      "He has decided to take the coach's advice seriously.",
+      "He plans to throw the paper away as soon as he gets home.",
+      "He is angry with the coach.",
+      "He wants to show the paper to his friends who made the team."
+    ],
+    "answer": 0,
+    "explanation": "People fold things carefully when they value them. This small action shows that Marcus has accepted the coach's plan."
+  },
+  {
+    "id": "R-LIT-031",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 228,
+    "passageId": "P-LIT-007",
     "stem": "What does the last paragraph show about Marcus?",
-    "choices": ["He began working to improve the same day he was cut.", "He gave up basketball after the tryouts.", "He was practicing with the rest of the team.", "He went to the library to study instead."], "answer": 0,
-    "explanation": "\"That evening\" the court is empty \"except for one boy and a basketball,\" and the ball hits the rim \"over and over.\" Marcus started following the drill list right away." },
-  { "id": "R-VOC-207", "subject": "reading", "area": "vocabulary", "rit": 220, "passageId": "P-LIT-007",
+    "choices": [
+      "He began working to improve the same day he was cut.",
+      "He gave up basketball and found a quieter place to be alone.",
+      "He was practicing with the rest of the team.",
+      "He went to the library to study instead."
+    ],
+    "answer": 0,
+    "explanation": "\"That evening\" the court is empty \"except for one boy and a basketball,\" and the ball hits the rim \"over and over.\" Marcus started following the drill list right away."
+  },
+  {
+    "id": "R-VOC-207",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 220,
+    "passageId": "P-LIT-007",
     "stem": "In paragraph 7, the coach gives Marcus \"a list of drills.\" What are drills in this context?",
-    "choices": ["exercises repeated many times to build a skill", "tools used to make holes", "tests given to choose team members", "rules for playing a game"], "answer": 0,
-    "explanation": "The coach says \"Fifty of each, every day.\" These are practice exercises that Marcus repeats to improve his shooting." },
-
-  { "id": "R-LIT-032", "subject": "reading", "area": "literary", "rit": 225, "passageId": "P-LIT-008",
+    "choices": [
+      "practice exercises repeated to build a skill",
+      "tools used to make holes in wood or metal",
+      "tests given to decide who makes the team",
+      "rules that every player must follow during a game"
+    ],
+    "answer": 0,
+    "explanation": "The coach says \"Fifty of each, every day.\" These are practice exercises that Marcus repeats to improve his shooting."
+  },
+  {
+    "id": "R-LIT-032",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 225,
+    "passageId": "P-LIT-008",
     "stem": "Which words best describe the tone of the poem?",
-    "choices": ["Humorous and affectionate", "Angry and bitter", "Formal and serious", "Fearful and anxious"], "answer": 0,
-    "explanation": "Jokes like \"you smell like defeat / and also like victory, and also like feet\" are humorous, while calling the shoes \"faithful\" and refusing to throw them away shows affection." },
-  { "id": "R-LIT-033", "subject": "reading", "area": "literary", "rit": 232, "passageId": "P-LIT-008",
+    "choices": [
+      "Humorous and affectionate",
+      "Angry and bitter about growing up",
+      "Formal and serious",
+      "Fearful and anxious"
+    ],
+    "answer": 0,
+    "explanation": "Jokes like \"you smell like defeat / and also like victory, and also like feet\" are humorous, while calling the shoes \"faithful\" and refusing to throw them away shows affection."
+  },
+  {
+    "id": "R-LIT-033",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 232,
+    "passageId": "P-LIT-008",
     "stem": "What does the speaker mean by saying \"every rip and sag / is a map of where I've been\"?",
-    "choices": ["The damage on the shoes is a record of the speaker's experiences.", "The speaker uses the shoes to find directions.", "The shoes were bought in many different places.", "The speaker wants to draw a map of the town."], "answer": 0,
-    "explanation": "This is a metaphor. Like a map, each rip and worn spot shows a place or event the speaker went through, such as the muddy championship game." },
-  { "id": "R-LIT-034", "subject": "reading", "area": "literary", "rit": 238, "passageId": "P-LIT-008",
+    "choices": [
+      "The damage on the shoes is a record of the speaker's experiences.",
+      "The speaker uses the worn soles of the shoes to find the way home.",
+      "The shoes were bought in many different places.",
+      "The speaker wants to draw a map of the town."
+    ],
+    "answer": 0,
+    "explanation": "This is a metaphor. Like a map, each rip and worn spot shows a place or event the speaker went through, such as the muddy championship game."
+  },
+  {
+    "id": "R-LIT-034",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 238,
+    "passageId": "P-LIT-008",
     "stem": "In stanza 2, how is the mother's view of the sneakers different from the speaker's view?",
-    "choices": ["The mother sees worn-out shoes to throw away, while the speaker sees memories.", "The mother wants to keep the shoes, while the speaker wants new ones.", "The mother thinks the shoes are too small, while the speaker thinks they are too big.", "The mother wants to fix the shoes, while the speaker wants to sell them."], "answer": 0,
-    "explanation": "The mother says \"It's time\" and holds out a bag for the shoes. The speaker says she \"does not understand\" that the damage holds memories." },
-  { "id": "R-LIT-035", "subject": "reading", "area": "literary", "rit": 242, "passageId": "P-LIT-008",
+    "choices": [
+      "The mother sees worn-out shoes to throw away, while the speaker sees memories.",
+      "The mother wants to keep the shoes, while the speaker wants new ones.",
+      "The mother thinks the shoes are too small, while the speaker thinks they are too big.",
+      "The mother wants to fix the shoes, while the speaker wants to sell them."
+    ],
+    "answer": 0,
+    "explanation": "The mother says \"It's time\" and holds out a bag for the shoes. The speaker says she \"does not understand\" that the damage holds memories."
+  },
+  {
+    "id": "R-LIT-035",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 242,
+    "passageId": "P-LIT-008",
     "stem": "The poem ends by describing new shoes \"that know nothing more / than the inside of a box.\" What contrast does this create?",
-    "choices": ["New shoes have no history, while the old shoes are full of experiences.", "New shoes are more comfortable than old shoes.", "New shoes are cheaper than old shoes.", "New shoes are stored more carefully than old shoes."], "answer": 0,
-    "explanation": "The only thing the new shoes have \"experienced\" is a box. This makes the old shoes, with their winters, puddles, and games, seem even more valuable." },
-
-  { "id": "R-LIT-036", "subject": "reading", "area": "literary", "rit": 245, "passageId": "P-LIT-009",
+    "choices": [
+      "New shoes have no history, while the old shoes are full of experiences.",
+      "New shoes are always more comfortable than old shoes that have been worn for years.",
+      "New shoes are cheaper than old shoes.",
+      "New shoes need to be stored carefully in boxes."
+    ],
+    "answer": 0,
+    "explanation": "The only thing the new shoes have \"experienced\" is a box. This makes the old shoes, with their winters, puddles, and games, seem even more valuable."
+  },
+  {
+    "id": "R-LIT-036",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 245,
+    "passageId": "P-LIT-009",
     "stem": "At the start of the scene, what is Daniel's attitude toward the photographs?",
-    "choices": ["Practical and impatient; he wants to deal with the house quickly.", "Curious and excited; he wants to look at every picture.", "Angry; he blames Anna for the grandmother's death.", "Confused; he does not know who is in the photographs."], "answer": 0,
-    "explanation": "Daniel keeps his coat on, glances at his watch, and talks about selling the house \"as is.\" He says he has no room for \"a museum.\"" },
-  { "id": "R-LIT-037", "subject": "reading", "area": "literary", "rit": 250, "passageId": "P-LIT-009",
+    "choices": [
+      "Practical and impatient; he wants to deal with the house quickly.",
+      "Curious and excited; he wants to look at every picture in the shoebox.",
+      "Angry; he blames Anna for the grandmother's death.",
+      "Confused; he does not know who is in the photographs."
+    ],
+    "answer": 0,
+    "explanation": "Daniel keeps his coat on, glances at his watch, and talks about selling the house \"as is.\" He says he has no room for \"a museum.\""
+  },
+  {
+    "id": "R-LIT-037",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 250,
+    "passageId": "P-LIT-009",
     "stem": "What does Anna's line \"It's not a museum. It's her\" reveal?",
-    "choices": ["She sees the photographs as a way of holding on to her grandmother.", "She wants to open a museum about her family.", "She thinks Daniel should move into the house.", "She does not care what happens to the photographs."], "answer": 0,
-    "explanation": "Daniel calls the photos a \"museum\"—old objects to store. Anna answers that they are the grandmother herself: her memories, humor, and personality." },
-  { "id": "R-LIT-038", "subject": "reading", "area": "literary", "rit": 256, "passageId": "P-LIT-009",
+    "choices": [
+      "She sees the photographs as a way of holding on to her grandmother.",
+      "She wants to open a small museum about her family's history in the house.",
+      "She thinks Daniel should move into the house.",
+      "She does not care what happens to the photographs."
+    ],
+    "answer": 0,
+    "explanation": "Daniel calls the photos a \"museum\"—old objects to store. Anna answers that they are the grandmother herself: her memories, humor, and personality."
+  },
+  {
+    "id": "R-LIT-038",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 256,
+    "passageId": "P-LIT-009",
     "stem": "Near the end of the scene, Daniel \"takes off his coat and drapes it over the back of the chair.\" What does this stage direction mainly show?",
-    "choices": ["He has decided to stay and share the memories with Anna.", "He is too warm in the kitchen.", "He is getting ready to leave.", "He is going to start cleaning the house."], "answer": 0,
-    "explanation": "At the beginning he \"does not take off his coat,\" showing he wanted to leave soon. Taking it off now shows he has changed his mind and will stay." },
-  { "id": "R-LIT-039", "subject": "reading", "area": "literary", "rit": 262, "passageId": "P-LIT-009",
+    "choices": [
+      "He has decided to stay and share the memories with Anna.",
+      "He is too warm in the kitchen after carrying the heavy suitcase.",
+      "He is getting ready to leave.",
+      "He is going to start cleaning out the house."
+    ],
+    "answer": 0,
+    "explanation": "At the beginning he \"does not take off his coat,\" showing he wanted to leave soon. Taking it off now shows he has changed his mind and will stay."
+  },
+  {
+    "id": "R-LIT-039",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 262,
+    "passageId": "P-LIT-009",
     "stem": "How does the photograph Daniel reads cause a turning point in the scene?",
-    "choices": ["It shows him that his grandmother remembered and believed in his childhood dreams.", "It proves that the grandmother wanted the house to be sold.", "It reminds him that he needs to catch a flight.", "It reveals a family secret that Anna had been hiding."], "answer": 0,
-    "explanation": "The caption says he \"wants to be an astronaut. Still might.\" He doesn't remember it, but \"She did.\" Realizing how much she cared about him changes his attitude." },
-  { "id": "R-LIT-040", "subject": "reading", "area": "literary", "rit": 252, "passageId": "P-LIT-009",
+    "choices": [
+      "It shows him that his grandmother remembered and believed in his dreams.",
+      "It proves that the grandmother wanted the house and everything in it to be sold.",
+      "It reminds him that he needs to leave soon to catch a flight.",
+      "It reveals a family secret that Anna had been hiding."
+    ],
+    "answer": 0,
+    "explanation": "The caption says he \"wants to be an astronaut. Still might.\" He doesn't remember it, but \"She did.\" Realizing how much she cared about him changes his attitude."
+  },
+  {
+    "id": "R-LIT-040",
+    "subject": "reading",
+    "area": "literary",
+    "rit": 252,
+    "passageId": "P-LIT-009",
     "stem": "The grandmother's caption \"Too cold to swim. Swam anyway.\" mainly helps the audience understand that she was",
-    "choices": ["bold and good-humored.", "careless and forgetful.", "shy and nervous.", "strict and serious."], "answer": 0,
-    "explanation": "She swam even though the water was too cold, and she wrote about it with a funny, short caption. This shows a brave and playful personality." },
-
-  { "id": "R-INF-027", "subject": "reading", "area": "informational", "rit": 210, "passageId": "P-INF-007",
+    "choices": [
+      "bold and good-humored.",
+      "careless and forgetful.",
+      "shy and nervous.",
+      "strict and serious."
+    ],
+    "answer": 0,
+    "explanation": "She swam even though the water was too cold, and she wrote about it with a funny, short caption. This shows a brave and playful personality."
+  },
+  {
+    "id": "R-INF-027",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 210,
+    "passageId": "P-INF-007",
     "stem": "What is the main idea of the passage?",
-    "choices": ["The garbage patch is not a solid island but is mostly tiny pieces of plastic spread through the water.", "People can walk on the Great Pacific Garbage Patch.", "The garbage patch is located next to Japan.", "Satellites take clear pictures of the garbage patch every day."], "answer": 0,
-    "explanation": "The passage corrects the idea of a floating island. Paragraph 3 explains that most pieces are tiny and floating below the surface." },
-  { "id": "R-INF-028", "subject": "reading", "area": "informational", "rit": 216, "passageId": "P-INF-007",
+    "choices": [
+      "The garbage patch is not a solid island; it is mostly tiny pieces of plastic.",
+      "The Great Pacific Garbage Patch is so thick in places that people can walk across it.",
+      "The garbage patch is located off the coast of Japan.",
+      "Satellites take clear pictures of the garbage patch every day so it can be tracked."
+    ],
+    "answer": 0,
+    "explanation": "The passage corrects the idea of a floating island. Paragraph 3 explains that most pieces are tiny and floating below the surface."
+  },
+  {
+    "id": "R-INF-028",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 216,
+    "passageId": "P-INF-007",
     "stem": "According to paragraph 2, why does trash collect in one area of the Pacific?",
-    "choices": ["Currents move in a circle and pull trash toward the calmer center.", "Ships dump their trash in that area on purpose.", "The water there is colder, so plastic sinks.", "Islands in that area block the trash from moving."], "answer": 0,
-    "explanation": "Paragraph 2 says currents form a giant circle called a gyre, and trash \"is slowly pulled toward the center of this gyre, where the water is calmer.\"" },
-  { "id": "R-INF-029", "subject": "reading", "area": "informational", "rit": 222, "passageId": "P-INF-007",
+    "choices": [
+      "Currents move in a circle and pull trash toward the calmer center.",
+      "Ships traveling between Hawaii and California dump their trash there on purpose.",
+      "The water there is colder, so plastic sinks and piles up.",
+      "Islands in that area block the trash from moving."
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 2 says currents form a giant circle called a gyre, and trash \"is slowly pulled toward the center of this gyre, where the water is calmer.\""
+  },
+  {
+    "id": "R-INF-029",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 222,
+    "passageId": "P-INF-007",
     "stem": "According to the passage, why can't the garbage patch be seen in satellite photos?",
-    "choices": ["Most pieces are tiny, and much of the plastic floats below the surface.", "The patch is always covered by clouds.", "The patch moves too quickly to be photographed.", "Satellites are not allowed to photograph the Pacific Ocean."], "answer": 0,
-    "explanation": "Paragraph 3 explains that the plastic is in tiny bits, much of it \"just below the surface,\" so the water \"can look almost clear.\"" },
-  { "id": "R-INF-030", "subject": "reading", "area": "informational", "rit": 226, "passageId": "P-INF-007",
+    "choices": [
+      "Most pieces are tiny, and much of the plastic floats below the surface.",
+      "The patch is almost always hidden under thick clouds that satellites cannot see through.",
+      "The patch moves too quickly to be photographed.",
+      "Satellites are not allowed to photograph that part of the Pacific Ocean."
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 3 explains that the plastic is in tiny bits, much of it \"just below the surface,\" so the water \"can look almost clear.\""
+  },
+  {
+    "id": "R-INF-030",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 226,
+    "passageId": "P-INF-007",
     "stem": "Which solution do most experts think is best, according to the passage?",
-    "choices": ["Keeping plastic from entering the ocean in the first place", "Building ships to scoop up all the microplastics", "Moving the garbage patch closer to land", "Teaching fish not to eat plastic"], "answer": 0,
-    "explanation": "Paragraph 5 says \"most experts agree that the best solution starts on land: keeping plastic out of the ocean in the first place.\"" },
-  { "id": "R-VOC-208", "subject": "reading", "area": "vocabulary", "rit": 218, "passageId": "P-INF-007",
+    "choices": [
+      "Keeping plastic from entering the ocean in the first place",
+      "Building large ships to scoop up all of the microplastics from the water",
+      "Moving the garbage patch closer to land",
+      "Teaching fish and seabirds not to eat plastic"
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 5 says \"most experts agree that the best solution starts on land: keeping plastic out of the ocean in the first place.\""
+  },
+  {
+    "id": "R-VOC-208",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 218,
+    "passageId": "P-INF-007",
     "stem": "In paragraph 5, engineers want to \"collect large floating debris before it breaks apart.\" What does \"debris\" mean?",
-    "choices": ["scattered pieces of trash or waste", "small sea animals", "ocean currents", "fishing boats"], "answer": 0,
-    "explanation": "The whole passage is about trash in the ocean. \"Debris\" means scattered pieces of waste, here large plastic objects that have not yet broken into microplastics." },
-
-  { "id": "R-INF-031", "subject": "reading", "area": "informational", "rit": 230, "passageId": "P-INF-008",
+    "choices": [
+      "scattered pieces of trash or waste",
+      "small sea animals that eat plastic",
+      "strong ocean currents near the surface",
+      "fishing boats"
+    ],
+    "answer": 0,
+    "explanation": "The whole passage is about trash in the ocean. \"Debris\" means scattered pieces of waste, here large plastic objects that have not yet broken into microplastics."
+  },
+  {
+    "id": "R-INF-031",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 230,
+    "passageId": "P-INF-008",
     "stem": "According to paragraph 2, why did the Titanic have lifeboats for only about half of the people on board?",
-    "choices": ["Safety rules based the number of lifeboats on a ship's weight and had not been updated for such large ships.", "The ship's owners broke the law to save money.", "The extra lifeboats were destroyed by the iceberg.", "Passengers refused to let more lifeboats be placed on deck."], "answer": 0,
-    "explanation": "Paragraph 2 says this \"was not illegal\": the rules depended on weight, not the number of people, and were outdated. The Titanic actually carried more boats than required." },
-  { "id": "R-INF-032", "subject": "reading", "area": "informational", "rit": 236, "passageId": "P-INF-008",
+    "choices": [
+      "Safety rules based lifeboat numbers on a ship's weight and were out of date.",
+      "The ship's owners broke the law by removing lifeboats to make the decks look less crowded.",
+      "Many of the extra lifeboats were destroyed when the ship hit the iceberg.",
+      "Passengers refused to let more lifeboats be placed on deck."
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 2 says this \"was not illegal\": the rules depended on weight, not the number of people, and were outdated. The Titanic actually carried more boats than required."
+  },
+  {
+    "id": "R-INF-032",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 236,
+    "passageId": "P-INF-008",
     "stem": "Which detail best shows that the problem was not only the NUMBER of lifeboats?",
-    "choices": ["\"Some boats left with fewer than half of their seats filled.\"", "\"The ship had struck an iceberg late the night before.\"", "\"The Titanic carried about 2,200 people.\"", "\"In 1914, nations signed the first International Convention for the Safety of Life at Sea.\""], "answer": 0,
-    "explanation": "Even the lifeboats that existed were not used fully. Half-empty boats show that confusion and lack of training also cost lives." },
-  { "id": "R-INF-033", "subject": "reading", "area": "informational", "rit": 242, "passageId": "P-INF-008",
+    "choices": [
+      "\"Some boats left with fewer than half of their seats filled.\"",
+      "\"The ship had struck an iceberg late the night before.\"",
+      "\"The Titanic carried about 2,200 people.\"",
+      "\"In 1914, nations signed the first International Convention for the Safety of Life at Sea.\""
+    ],
+    "answer": 0,
+    "explanation": "Even the lifeboats that existed were not used fully. Half-empty boats show that confusion and lack of training also cost lives."
+  },
+  {
+    "id": "R-INF-033",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 242,
+    "passageId": "P-INF-008",
     "stem": "What is the main purpose of paragraph 4?",
-    "choices": ["To describe how the disaster led to new safety rules", "To explain how the iceberg damaged the ship", "To list the names of survivors", "To argue that ships today are still unsafe"], "answer": 0,
-    "explanation": "Paragraph 4 begins \"The disaster led to major changes\" and lists the new requirements from the 1914 convention." },
-  { "id": "R-INF-034", "subject": "reading", "area": "informational", "rit": 248, "passageId": "P-INF-008",
+    "choices": [
+      "To describe how the disaster led to new safety rules",
+      "To explain in detail how the iceberg damaged the ship's hull",
+      "To list the names of the survivors",
+      "To argue that ships today are still unsafe"
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 4 begins \"The disaster led to major changes\" and lists the new requirements from the 1914 convention."
+  },
+  {
+    "id": "R-INF-034",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 248,
+    "passageId": "P-INF-008",
     "stem": "In the final paragraph, what does the author suggest about how the Titanic disaster should be remembered?",
-    "choices": ["As a result of outdated rules more than of the iceberg alone", "As an accident that no one could have prevented", "As proof that large ships should not be built", "As the fault of the passengers who stayed on board"], "answer": 0,
-    "explanation": "The author says it \"may be more accurate to remember it as a story about rules that had not kept up with technology,\" rather than only about an iceberg." },
-  { "id": "R-VOC-209", "subject": "reading", "area": "vocabulary", "rit": 234, "passageId": "P-INF-008",
+    "choices": [
+      "As a result of outdated rules more than of the iceberg alone",
+      "As an accident that no one could have predicted or prevented in any way",
+      "As proof that large ships should not be built",
+      "As the fault of the passengers who stayed on board"
+    ],
+    "answer": 0,
+    "explanation": "The author says it \"may be more accurate to remember it as a story about rules that had not kept up with technology,\" rather than only about an iceberg."
+  },
+  {
+    "id": "R-VOC-209",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 234,
+    "passageId": "P-INF-008",
     "stem": "In paragraph 3, the crew \"had never practiced a full evacuation.\" What does \"evacuation\" mean?",
-    "choices": ["moving people away from a dangerous place in an organized way", "a celebration held on a ship", "a test of a ship's engines", "a report written after an accident"], "answer": 0,
-    "explanation": "The paragraph is about getting people into lifeboats. An evacuation is the organized removal of people from danger." },
-
-  { "id": "R-INF-035", "subject": "reading", "area": "informational", "rit": 238, "passageId": "P-INF-009",
+    "choices": [
+      "the organized removal of people from danger",
+      "a celebration held on the deck of a ship",
+      "a test of how fast a ship's engines can run",
+      "a report written by the crew after an accident"
+    ],
+    "answer": 0,
+    "explanation": "The paragraph is about getting people into lifeboats. An evacuation is the organized removal of people from danger."
+  },
+  {
+    "id": "R-INF-035",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 238,
+    "passageId": "P-INF-009",
     "stem": "What is the main argument of Viewpoint 1?",
-    "choices": ["Zoos help save endangered species and teach visitors to care about wildlife.", "Zoos should release all of their animals into the wild.", "Zoos are mainly places for entertainment.", "Zoos are too expensive to keep running."], "answer": 0,
-    "explanation": "Viewpoint 1 gives two reasons: breeding programs (such as for the Arabian oryx) and education (visitors leave \"caring more about protecting wildlife\")." },
-  { "id": "R-INF-036", "subject": "reading", "area": "informational", "rit": 244, "passageId": "P-INF-009",
+    "choices": [
+      "Zoos help save endangered species and teach visitors to care about wildlife.",
+      "Zoos should release all of their animals into the wild as soon as it is safely possible.",
+      "Zoos are mainly places for family entertainment.",
+      "Zoos have become too expensive to keep running."
+    ],
+    "answer": 0,
+    "explanation": "Viewpoint 1 gives two reasons: breeding programs (such as for the Arabian oryx) and education (visitors leave \"caring more about protecting wildlife\")."
+  },
+  {
+    "id": "R-INF-036",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 244,
+    "passageId": "P-INF-009",
     "stem": "How does Viewpoint 2 respond to the example of the Arabian oryx?",
-    "choices": ["It accepts that such successes exist but argues that few zoo animals are endangered.", "It claims that the oryx story is false.", "It agrees that zoos are the best way to protect all species.", "It ignores the example completely."], "answer": 0,
-    "explanation": "Viewpoint 2 says \"Supporters point to success stories like the oryx, but only a small share of the animals in zoos belong to endangered species.\" It admits the point, then limits it." },
-  { "id": "R-INF-037", "subject": "reading", "area": "informational", "rit": 250, "passageId": "P-INF-009",
+    "choices": [
+      "It accepts that such successes exist but says few zoo animals are endangered.",
+      "It claims that the story of the oryx is false and that the herds were never really saved.",
+      "It agrees that zoos are the best way to protect all species.",
+      "It ignores the example completely."
+    ],
+    "answer": 0,
+    "explanation": "Viewpoint 2 says \"Supporters point to success stories like the oryx, but only a small share of the animals in zoos belong to endangered species.\" It admits the point, then limits it."
+  },
+  {
+    "id": "R-INF-037",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 250,
+    "passageId": "P-INF-009",
     "stem": "With which statement would the authors of BOTH viewpoints most likely agree?",
-    "choices": ["Protecting endangered species is an important goal.", "Zoos are the best way to protect animals.", "Animals in zoos never experience stress.", "Money should be spent only on protecting habitats."], "answer": 0,
-    "explanation": "Viewpoint 1 praises zoos for saving species, and Viewpoint 2 says \"If the true goal is saving species,\" habitat protection may work better. They disagree on the method, but both value saving species." },
-  { "id": "R-INF-038", "subject": "reading", "area": "informational", "rit": 256, "passageId": "P-INF-009",
+    "choices": [
+      "Protecting endangered species is an important goal.",
+      "Zoos are the best way to protect animals.",
+      "Animals in zoos never experience stress.",
+      "Money should be spent only on protecting habitats."
+    ],
+    "answer": 0,
+    "explanation": "Viewpoint 1 praises zoos for saving species, and Viewpoint 2 says \"If the true goal is saving species,\" habitat protection may work better. They disagree on the method, but both value saving species."
+  },
+  {
+    "id": "R-INF-038",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 256,
+    "passageId": "P-INF-009",
     "stem": "Why does Viewpoint 2 mention animals \"pacing back and forth\"?",
-    "choices": ["As evidence that captivity can cause stress for some animals", "To show that zoo animals get plenty of exercise", "To explain how zoos train animals", "To argue that elephants walk farther than polar bears"], "answer": 0,
-    "explanation": "The pacing is described as a repetitive behavior \"that scientists consider signs of stress,\" which supports the claim that zoos cannot replace the wild." },
-  { "id": "R-VOC-210", "subject": "reading", "area": "vocabulary", "rit": 248, "passageId": "P-INF-009",
+    "choices": [
+      "As evidence that captivity can cause stress for some animals",
+      "To show that zoo animals get plenty of exercise",
+      "To explain how zoos train animals",
+      "To argue that elephants walk farther than polar bears"
+    ],
+    "answer": 0,
+    "explanation": "The pacing is described as a repetitive behavior \"that scientists consider signs of stress,\" which supports the claim that zoos cannot replace the wild."
+  },
+  {
+    "id": "R-VOC-210",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 248,
+    "passageId": "P-INF-009",
     "stem": "Viewpoint 1 refers to \"accredited zoos.\" What does \"accredited\" mean?",
-    "choices": ["officially approved as meeting certain standards", "very large and popular", "owned by the government", "recently built"], "answer": 0,
-    "explanation": "The author contrasts these zoos with \"the cramped animal prisons of the past.\" Accredited zoos are officially recognized as meeting standards of care." },
-
-  { "id": "R-INF-039", "subject": "reading", "area": "informational", "rit": 245, "passageId": "P-INF-010",
+    "choices": [
+      "officially approved as meeting standards",
+      "very large and popular with tourists",
+      "owned and run by the national government",
+      "recently built"
+    ],
+    "answer": 0,
+    "explanation": "The author contrasts these zoos with \"the cramped animal prisons of the past.\" Accredited zoos are officially recognized as meeting standards of care."
+  },
+  {
+    "id": "R-INF-039",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 245,
+    "passageId": "P-INF-010",
     "stem": "According to paragraph 1, why are placebos used in medical experiments?",
-    "choices": ["So researchers can compare a real drug's results with a treatment that has no active ingredient", "Because placebos cure diseases faster than real drugs", "To save money on expensive medicine", "To make patients feel more comfortable during surgery"], "answer": 0,
-    "explanation": "Paragraph 1 explains that one group gets the drug and one gets the placebo: \"If the drug works better than the placebo, it is considered effective.\"" },
-  { "id": "R-INF-040", "subject": "reading", "area": "informational", "rit": 250, "passageId": "P-INF-010",
+    "choices": [
+      "To compare a real drug's results with those of a treatment that has no medicine",
+      "Because placebos often cure diseases faster than real drugs and cost much less to make",
+      "To save money on expensive medicine",
+      "To make patients feel more comfortable during surgery"
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 1 explains that one group gets the drug and one gets the placebo: \"If the drug works better than the placebo, it is considered effective.\""
+  },
+  {
+    "id": "R-INF-040",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 250,
+    "passageId": "P-INF-010",
     "stem": "According to paragraph 3, which of these can influence how patients respond to a placebo?",
-    "choices": ["The color and size of the pill", "The weather on the day of treatment", "The patient's height", "The language the patient speaks"], "answer": 0,
-    "explanation": "Paragraph 3 lists ritual factors: a caring doctor, a formal prescription, and \"even the color and size of a pill.\"" },
-  { "id": "R-INF-041", "subject": "reading", "area": "informational", "rit": 258, "passageId": "P-INF-010",
+    "choices": [
+      "The color and size of the pill",
+      "The weather on the day of treatment",
+      "The patient's height",
+      "The language the patient speaks"
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 3 lists ritual factors: a caring doctor, a formal prescription, and \"even the color and size of a pill.\""
+  },
+  {
+    "id": "R-INF-041",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 258,
+    "passageId": "P-INF-010",
     "stem": "Why does the author include the information about \"open-label\" placebos in paragraph 4?",
-    "choices": ["To show that the effect can appear even when patients know the pill has no medicine", "To prove that placebos can cure serious diseases", "To explain why doctors should stop using placebos", "To show that experiments with placebos are always dishonest"], "answer": 0,
-    "explanation": "If expectation were the whole story, knowing the pill is fake should cancel the effect. The author calls this \"an even stranger idea,\" making the placebo effect seem more puzzling." },
-  { "id": "R-INF-042", "subject": "reading", "area": "informational", "rit": 262, "passageId": "P-INF-010",
+    "choices": [
+      "To show the effect can happen even when patients know the pill is fake",
+      "To prove that placebos can cure serious diseases if patients believe in them strongly",
+      "To explain why doctors should stop using placebos",
+      "To show that experiments with placebos are always dishonest"
+    ],
+    "answer": 0,
+    "explanation": "If expectation were the whole story, knowing the pill is fake should cancel the effect. The author calls this \"an even stranger idea,\" making the placebo effect seem more puzzling."
+  },
+  {
+    "id": "R-INF-042",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 262,
+    "passageId": "P-INF-010",
     "stem": "How does paragraph 5 limit the claims made earlier in the passage?",
-    "choices": ["It warns that placebos mostly affect how people feel and cannot cure the underlying disease.", "It states that the placebo effect has been proven false.", "It argues that placebos should replace real medicine.", "It claims that only doctors can experience the placebo effect."], "answer": 0,
-    "explanation": "After describing surprising effects, the author adds that placebos \"do not shrink tumors or kill bacteria\" and their effects are \"mostly limited to how people feel.\" This keeps readers from overestimating them." },
-  { "id": "R-VOC-211", "subject": "reading", "area": "vocabulary", "rit": 254, "passageId": "P-INF-010",
+    "choices": [
+      "It warns that placebos mostly change how people feel, not the disease itself.",
+      "It states that new research has proven the placebo effect to be false after all.",
+      "It argues that placebos should replace real medicine for most patients who feel pain.",
+      "It claims that only doctors can experience the placebo effect."
+    ],
+    "answer": 0,
+    "explanation": "After describing surprising effects, the author adds that placebos \"do not shrink tumors or kill bacteria\" and their effects are \"mostly limited to how people feel.\" This keeps readers from overestimating them."
+  },
+  {
+    "id": "R-VOC-211",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 254,
+    "passageId": "P-INF-010",
     "stem": "In paragraph 5, the effects of placebos are limited to how people feel, \"not to the underlying illness.\" What does \"underlying\" mean?",
-    "choices": ["basic and real, beneath the surface symptoms", "easy to see", "caused by medicine", "temporary and minor"], "answer": 0,
-    "explanation": "The author contrasts how people FEEL (symptoms) with the actual disease beneath them. \"Underlying\" means the real, basic cause that lies under what you can see." },
-
-  { "id": "R-INF-043", "subject": "reading", "area": "informational", "rit": 255, "passageId": "P-INF-011",
+    "choices": [
+      "the real cause beneath the symptoms",
+      "easy to see from the outside",
+      "caused by taking too much medicine",
+      "temporary and minor"
+    ],
+    "answer": 0,
+    "explanation": "The author contrasts how people FEEL (symptoms) with the actual disease beneath them. \"Underlying\" means the real, basic cause that lies under what you can see."
+  },
+  {
+    "id": "R-INF-043",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 255,
+    "passageId": "P-INF-011",
     "stem": "According to paragraph 2, why did Marie Tharp work in the lab instead of at sea?",
-    "choices": ["Women were not allowed on research voyages at her institution.", "She was afraid of traveling on ships.", "Bruce Heezen did not trust her with the equipment.", "The ships did not have enough room for scientists."], "answer": 0,
-    "explanation": "Paragraph 2 states that \"women were not allowed to join research voyages at Tharp's institution.\"" },
-  { "id": "R-INF-044", "subject": "reading", "area": "informational", "rit": 260, "passageId": "P-INF-011",
+    "choices": [
+      "Women were not allowed on research voyages at her institution.",
+      "She was afraid of traveling on ships and preferred to stay on land.",
+      "Bruce Heezen did not trust her with the equipment.",
+      "The ships did not have enough room for extra scientists."
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 2 states that \"women were not allowed to join research voyages at Tharp's institution.\""
+  },
+  {
+    "id": "R-INF-044",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 260,
+    "passageId": "P-INF-011",
     "stem": "How did the earthquake data described in paragraph 4 affect Tharp's idea about the rift valley?",
-    "choices": ["It supported her idea, because the earthquakes lined up along the valley.", "It disproved her idea, because the earthquakes were far from the valley.", "It had no connection to her idea.", "It showed that the ocean floor was flat after all."], "answer": 0,
-    "explanation": "Earthquakes happen where the crust is moving. Since they \"lined up along Tharp's rift valley,\" the data supported her claim that the crust was being pulled apart there." },
-  { "id": "R-INF-045", "subject": "reading", "area": "informational", "rit": 265, "passageId": "P-INF-011",
+    "choices": [
+      "It supported her idea, because the earthquakes lined up along the valley.",
+      "It disproved her idea, because the earthquakes were far from the valley.",
+      "It had no connection to her idea.",
+      "It showed that the ocean floor was flat after all."
+    ],
+    "answer": 0,
+    "explanation": "Earthquakes happen where the crust is moving. Since they \"lined up along Tharp's rift valley,\" the data supported her claim that the crust was being pulled apart there."
+  },
+  {
+    "id": "R-INF-045",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 265,
+    "passageId": "P-INF-011",
     "stem": "Which statement best describes how the passage is organized?",
-    "choices": ["It tells, in time order, how a discovery was made, doubted, and eventually accepted.", "It compares two scientists' competing theories point by point.", "It describes a problem and then argues for one solution.", "It lists facts about the ocean floor in order of importance."], "answer": 0,
-    "explanation": "The passage moves from the early 1950s, to Tharp's discovery, to the doubts, to the late 1960s, to 1977 and today. This is a chronological account of a discovery." },
-  { "id": "R-INF-046", "subject": "reading", "area": "informational", "rit": 270, "passageId": "P-INF-011",
+    "choices": [
+      "It tells, in time order, how a discovery was made, doubted, and accepted.",
+      "It compares two scientists' competing theories point by point.",
+      "It describes a problem and then argues strongly for one particular solution.",
+      "It lists facts about the ocean floor in order of their importance."
+    ],
+    "answer": 0,
+    "explanation": "The passage moves from the early 1950s, to Tharp's discovery, to the doubts, to the late 1960s, to 1977 and today. This is a chronological account of a discovery."
+  },
+  {
+    "id": "R-INF-046",
+    "subject": "reading",
+    "area": "informational",
+    "rit": 270,
+    "passageId": "P-INF-011",
     "stem": "What does the final sentence of the passage suggest?",
-    "choices": ["Important discoveries can come from careful analysis of data, not only from exploration.", "Scientists should always work alone.", "Tharp deserved more credit than Heezen for every discovery.", "Ocean exploration is no longer necessary."], "answer": 0,
-    "explanation": "Tharp made her key discovery in the lab, studying measurements, without going to sea. The author concludes that discovery comes \"from careful attention to data as much as from adventure.\"" },
-  { "id": "R-VOC-212", "subject": "reading", "area": "vocabulary", "rit": 258, "passageId": "P-INF-011",
+    "choices": [
+      "Important discoveries can come from studying data, not only from exploring.",
+      "Scientists should always work alone instead of depending on colleagues who may doubt them.",
+      "Tharp deserved more credit than Heezen for every discovery.",
+      "Ocean exploration is no longer necessary."
+    ],
+    "answer": 0,
+    "explanation": "Tharp made her key discovery in the lab, studying measurements, without going to sea. The author concludes that discovery comes \"from careful attention to data as much as from adventure.\""
+  },
+  {
+    "id": "R-VOC-212",
+    "subject": "reading",
+    "area": "vocabulary",
+    "rit": 258,
+    "passageId": "P-INF-011",
     "stem": "In paragraph 3, \"Heezen initially dismissed her interpretation.\" What does \"dismissed\" mean in this sentence?",
-    "choices": ["rejected as not worth serious consideration", "sent away from a job", "agreed with completely", "forgot about by accident"], "answer": 0,
-    "explanation": "The sentence goes on to say many geologists \"rejected continental drift entirely.\" Heezen at first refused to take Tharp's idea seriously. (\"Dismissed\" can also mean fired from a job, but that doesn't fit here.)" }
+    "choices": [
+      "rejected as not worth considering",
+      "removed from a job or position",
+      "agreed with completely and publicly",
+      "forgot about by accident"
+    ],
+    "answer": 0,
+    "explanation": "The sentence goes on to say many geologists \"rejected continental drift entirely.\" Heezen at first refused to take Tharp's idea seriously. (\"Dismissed\" can also mean fired from a job, but that doesn't fit here.)"
+  }
 ]

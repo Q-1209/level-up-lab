@@ -23,7 +23,7 @@
     "stem": "A school wants to know how students feel about a new lunch menu. Which sampling method is most likely to give an unbiased sample?",
     "choices": [
       "Randomly select 50 students from a list of all students in the school.",
-      "Survey the first 50 students who arrive at the cafeteria.",
+      "Survey the first 50 students who arrive at the cafeteria on Monday at lunchtime.",
       "Survey 50 members of the school cooking club.",
       "Ask students to fill out an online survey if they want to."
     ], "answer": 0,
@@ -124,7 +124,7 @@
       "The true level of support could be below 50%, so the outcome is uncertain.",
       "Exactly 52% of all voters support the park.",
       "The park will definitely be approved by a majority.",
-      "The poll is useless because it did not survey every voter."
+      "The poll is useless because it did not survey every single voter in the whole city."
     ], "answer": 0,
     "explanation": "With a margin of error of $\\pm 5\\%$, the true support is likely between $47\\%$ and $57\\%$. Since that range includes values below $50\\%$, we cannot be sure a majority supports the park." },
   { "id": "M-STA-038", "subject": "math", "area": "statistics", "rit": 265,
